@@ -17,7 +17,7 @@ oocradio.getCurrentSong().then(data => console.log(data))
 ```
 
 **Returns**
-```
+```json
 {
     "status": string,
     "response": {
@@ -34,7 +34,7 @@ oocradio.nextLive().then(data => console.log(data))
 ```
 
 **Returns**
-```
+```json
 {
     "status": string,
     "response": {
@@ -53,7 +53,7 @@ oocradio.getLiveData().then(data => console.log(data))
 ```
 
 **Returns**
-```
+```json
 {
     "status": string,
     "response": {
