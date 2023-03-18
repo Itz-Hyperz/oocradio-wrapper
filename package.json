@@ -1,6 +1,6 @@
 {
   "name": "oocradio-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API Wrapper for the OOCRadio.com API. Bubble.io is very limited and sucks btw.",
   "main": "index.js",
   "scripts": {
