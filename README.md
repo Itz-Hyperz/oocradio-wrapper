@@ -77,5 +77,5 @@ oocradio.getLiveData().then(data => console.log(data))
 
 # Credits
 - [@Hyperz](https://bosssoftware.net) *Writing this extremely simple wrapper.*
-- [@Shawn E.](https://github.com/Shawn-E) *Rewriting to change the a constructor*
+- [@Shawn E.](https://github.com/Shawn-E) *Rewriting to change to a constructor*
 
