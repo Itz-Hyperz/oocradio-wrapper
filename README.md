@@ -16,24 +16,29 @@ const oocradio = new OOCRadio({ version: '1.1' }) // Takes in the version of the
 oocradio.getCurrentSong().then(data => console.log(data))
 ```
 
-**Returns**
+<details>
+    <summary>Returns</summary>
+    
 ```json
 {
     "status": string,
     "response": {
-      "Artist": string,
-      "Title": string,
-      "Cover": string/url,
+        "Artist": string,
+        "Title": string,
+        "Cover": string/url,
     }
 }
 ```
+</details>
 
 ## Get Next Live
 ```js 
 oocradio.nextLive().then(data => console.log(data))
 ```
 
-**Returns**
+<details>
+<summary>Returns</summary>
+    
 ```json
 {
     "status": string,
@@ -46,13 +51,15 @@ oocradio.nextLive().then(data => console.log(data))
     }
 }
 ```
+</details>
 
 ## Get Live Data
 ```js 
 oocradio.getLiveData().then(data => console.log(data))
 ```
-
-**Returns**
+<details>
+<summary>Returns</summary>
+    
 ```json
 {
     "status": string,
@@ -66,8 +73,9 @@ oocradio.getLiveData().then(data => console.log(data))
     }
 }
 ```
-
+</details>
 
 # Credits
 - [@Hyperz](https://bosssoftware.net) *Writing this extremely simple wrapper.*
+- [@Shawn E.](https://github.com/Shawn-E) *Rewriting to change the a constructor*
 
